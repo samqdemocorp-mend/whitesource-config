@@ -1,5 +1,6 @@
 {
     "scans": {
-        "javaEngineGeneration" : 2
+        "javaEngineGeneration" : 2,
+        "jsEngineGeneration": 2
     }
 }
