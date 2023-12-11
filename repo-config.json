@@ -33,7 +33,7 @@
     },
     "enableRenovate": true,
     "extends": [
-       "config:base",
+       "config:recommended",
        "mergeConfidence:all-badges",
        "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
       ]
