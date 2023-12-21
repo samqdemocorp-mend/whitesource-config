@@ -20,8 +20,14 @@
     "displayMode": "diff",
     "useMendCheckNames": true,
     "strictMode": "warning",
-    "checkRunSettings.failOnVulnerabilityMinCvss": 9.0
+    "failOnVulnerabilityMinCvss": 9.0
   },
+  "releaseBranchSettings": {
+    "checkRunSettings.failOnLicenseViolation": true,
+    "checkRunSettings.showWsInfo": true,
+    "checkRunSettings.strictMode": "warning",
+    "checkRunSettings.failOnVulnerabilityMinCvss": 9.0
+  }
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"
