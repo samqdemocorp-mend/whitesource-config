@@ -5,7 +5,8 @@
     "baseBranches": [],
     "enableLicenseViolations": true,
     "enableReachability": true,
-    "exploitability": true
+    "exploitability": true,
+    "releaseBranches": ["v.*"]
   },
   "scanSettingsSAST": {
     "enableScan": true,
