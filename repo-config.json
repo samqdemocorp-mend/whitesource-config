@@ -27,7 +27,7 @@
     "checkRunSettings.showWsInfo": true,
     "checkRunSettings.strictMode": "warning",
     "checkRunSettings.failOnVulnerabilityMinCvss": 9.0
-  }
+  },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"
