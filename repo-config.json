@@ -19,8 +19,7 @@
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true,
-    "strictMode": "failure",
-    "failOnVulnerabilityMinCvss": 9.0
+    "strictMode": "failure"
   },
   "releaseBranchSettings": {
     "checkRunSettings.failOnLicenseViolation": true,
