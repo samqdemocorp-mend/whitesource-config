@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/kyallanum-MND/mend-integration-schemas/main/ghc-integration-schema.json",
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
@@ -22,14 +23,16 @@
     "strictMode": "failure"
   },
   "releaseBranchSettings": {
-    "checkRunSettings.failOnLicenseViolation": true,
-    "checkRunSettings.showWsInfo": true,
-    "checkRunSettings.strictMode": "failure",
-    "checkRunSettings.failOnVulnerabilityMinCvss": 9.0
+    "checkRunSettings": {
+      "failOnLicenseViolation": true,
+      "showWsInfo": true,
+      "strictMode": "failure",
+      "failOnVulnerabilityMinCvss": 9.0
+      }
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
+    "severityThreshold": "High"
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
@@ -43,7 +46,7 @@
     "extends": [
        "config:recommended",
        "mergeConfidence:all-badges",
-       "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
+       "github>samqdemocorp-mend/whitesource-config:smart-merge"
       ]
   },
   "imageSettings": {
